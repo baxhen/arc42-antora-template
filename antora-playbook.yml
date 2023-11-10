@@ -10,5 +10,6 @@ content:
     start_path: docs
 ui:
   bundle:
-    url: https://github.com/baxhen/arc42-antora-template/raw/beb8ccac064cbffc8990b14e81eff4f67cbda6d3/ui-bundle.zip
+    url: https://github.com/baxhen/arc42-antora-template/raw/main/ui-bundle.zip
     snapshot: true
+  default_layout: many
