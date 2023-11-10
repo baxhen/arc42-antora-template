@@ -3,10 +3,12 @@ site:
   start_page: docs:ROOT:index.adoc
 content:
   sources:
+  - url: https://gitlab.com/antora/demo/demo-component-a.git
+    branches: HEAD
   - url: https://gitlab.com/antora/demo/demo-component-b.git
     branches: [v2.0, v1.0]
     start_path: docs
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/baxhen/arc42-antora-template/raw/beb8ccac064cbffc8990b14e81eff4f67cbda6d3/ui-bundle.zip
     snapshot: true
