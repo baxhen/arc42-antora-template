@@ -1,0 +1,5 @@
+name: docs
+title: Arc42 Template
+version: 1
+nav:
+  - modules/testdocument/nav.adoc

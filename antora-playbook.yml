@@ -1,14 +1,10 @@
 site:
-  title: Cattlevis Docs
+  title: Exemple Docs
   start_page: docs:ROOT:index.adoc
 content:
   sources:
-  - url: https://gitlab.com/antora/demo/demo-component-a.git
-    branches: HEAD
-  - url: https://gitlab.com/antora/demo/demo-component-b.git
-    branches: [v2.0, v1.0]
-    start_path: docs
+    - url: https://github.com/baxhen/arc42-template.git
+      branches: main
 ui:
   bundle:
-    url: https://github.com/baxhen/arc42-antora-template/raw/main/ui-bundle.zip
-    snapshot: true
+    url: ./ui-bundle
