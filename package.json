@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "asciidoctor": "^3.0.2"
+  },
+  "devDependencies": {
+    "@antora/cli": "3.1.4",
+    "@antora/site-generator": "3.1.4",
+    "typescript": "^5.2.2"
+  }
+}
